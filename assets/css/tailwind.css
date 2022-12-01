@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	}
+}
+
+.absCenter {
+	@apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+}
+
+.flexCenter {
+	@apply flex justify-center items-center;
+}
